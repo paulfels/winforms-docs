@@ -115,7 +115,7 @@ End Sub
 
 * __SkipPositionBefore__ - specifies where text will appear if you position the caret next to the range start/end.  For example, if it returns *true* in the range start and *false* in the range end, the text you enter when you position the caret next to the start/end, will appear in the range.
             
-* __SkipPositionsInRange__ of **AnnotationRangeStart** - you can set this property to *false*, which will disable the option to edit the content of the range, i.e. it may be possible to delete the range altogether, but it will not be possible to position the caret in the range, select or edit only part of the range.            
+* __SkipPositionsInRange__ of **AnnotationRangeStart** - you can set this property to *true*, which will disable the option to edit the content of the range, i.e. it may be possible to delete the range altogether, but it will not be possible to position the caret in the range, select or edit only part of the range.            
 
 * __DeleteBehavior, BackspaceBehavior, DeleteSelectedBehavior__ - you can customize these behaviors by choosing from the options in the enum **AnnotationMarkerDeleteBehavior**: **PreserveAnnotation**, **SelectAnnotation**, **RemoveAnnotation**, **SelectAnnotationMarker**. For example, hyperlinks keep the default settings in **FieldRangeStart** and **FieldRangeEnd**, which are: 
  
